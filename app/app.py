@@ -28,7 +28,7 @@ def get_data():
         data,
         simbolo,
         valor_fechamento,
-        acao,
+        tipo_acao,
         quantidade,
         valor,
         ganho
