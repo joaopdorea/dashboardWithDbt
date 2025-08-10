@@ -1,0 +1,29 @@
+
+version: 2
+
+models:
+    
+    - name: bronze_commodities
+      description: "Tabela que contém dados históricos de commodities com tipos e nomes ajustados"
+      columns:
+      - name: data
+        description: "Data da observação"
+      - name: valor_fechamento
+        description: "Preço de fechamento da commodity"
+      - name: simbolo
+        description: "Ticker da commodity"
+
+    - name: bronze_movimentacao_commodities
+      description: "Tabela que contém compras e vendas de commodities com tipos e nomes ajustados"
+      columns:
+      - name: data
+        description: "Data da observação"
+      - name: simbolo
+        description: "Ticker da commodity"
+      - name: tipo_acao
+        description: "Tipo da ação"
+      - name: quantidade
+        description: "Quantidade vendida"
+      
+      
+  

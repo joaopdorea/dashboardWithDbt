@@ -1,0 +1,26 @@
+
+version: 2
+
+models:
+    
+    - name: silver_commodities
+      description: "Tabela que servirá de insumo para construção de KPIs"
+      columns:
+      - name: data
+        description: "Data da observação"
+      - name: simbolo
+        description: "Ticker da commodity"
+      - name: valor_fechamento
+        description: "Preço de fechamento da commodity"
+      - name: tipo_acao
+        description: "Tipo da ação (compra ou venda)"
+      - name: quantidade
+        description: "Quantidade vendida"
+      - name: valor
+        description: "Faturamento total"
+      - name: ganho
+        description: "?"
+
+      
+      
+  

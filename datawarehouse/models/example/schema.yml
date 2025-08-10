@@ -1,0 +1,32 @@
+
+version: 2
+
+sources:
+  - name: dbfinance_g3yx
+    schema: public
+    tables:
+    
+    - name: commodities
+      description: "Tabela que contém dados históricos de commodities"
+      columns:
+      - name: Date
+        description: "Data da observação"
+      - name: Close
+        description: "Preço de fechamento da commodity"
+      - name: simbolo
+        description: "Ticker da commodity"
+
+    - name: movimentacao_commodities
+      description: "Tabela que contém compras e vendas de commodities"
+      columns:
+      - name: date
+        description: "Data da observação"
+      - name: symbol
+        description: "Ticker da commodity"
+      - name: action
+        description: "Tipo da ação"
+      - name: quantity
+        description: "Quantidade vendida"
+      
+      
+  
