@@ -16,8 +16,8 @@ Este projeto coleta dados de preços de commodities utilizando a biblioteca [yfi
 
 ## 📂 Estrutura do Fluxo
 
-mermaid
-flowchart TD
+```mermaid
+flowchart TD;
     A[Inicio] --> B[Carregar bibliotecas: yfinance, pandas, sqlalchemy, dotenv, os]
     B --> C[Carregar variaveis de ambiente .env]
     C --> D[Definir lista de commodities: CL=F, GC=F, SI=F]
