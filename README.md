@@ -16,7 +16,7 @@ Este projeto coleta dados de preços de commodities utilizando a biblioteca [yfi
 
 ## 📂 Estrutura do Fluxo
 
-```mermaid
+mermaid
 flowchart TD
     A[Inicio] --> B[Carregar bibliotecas: yfinance, pandas, sqlalchemy, dotenv, os]
     B --> C[Carregar variaveis de ambiente .env]
@@ -35,7 +35,7 @@ flowchart TD
     O --> P[Salvar DataFrame no PostgreSQL, tabela commodities, substituindo dados]
     P --> Q[Fim]
 
-
+```
 
     O DBT é utilizado para criar views e modelos transformados diretamente no PostgreSQL.
     Isso permite centralizar o tratamento de dados e manter a lógica no banco, facilitando manutenção e escalabilidade.
