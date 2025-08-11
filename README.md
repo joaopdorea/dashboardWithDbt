@@ -29,8 +29,7 @@ Em seguida, utiliza o [DBT](https://www.getdbt.com/) para tratamento e modelagem
 
 - **Dashboard e autenticação**  
   - `streamlit` ou `dash` (visualização)  
-  - `streamlit-authenticator` ou `Flask-Login` (autenticação)  
-  - Integrações OAuth (Google, GitHub, Auth0, Firebase Authentication)  
+  - `streamlit-authenticator` (autenticação)
 
 ---
 
